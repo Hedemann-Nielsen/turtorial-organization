@@ -1,0 +1,47 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+/* Global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --accent: #fdfdfd;
+    --black: ##0D0D0D;
+    --light: #D9BFA9;
+    --dark: #592C12;
+    --red: #A66953;
+
+}
+body {
+    background-color: var(--light);
+}
+
+img {
+    width: 100%;
+    padding: 10px;
+}
+
+figure{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+figcaption{
+    width: 800px;
+    height: 100px;
+    border: 3px dashed var(--dark);
+    border-radius: 27px;
+    padding: 30px;
+    margin: 100px;
+
+
+
+
+}
+
